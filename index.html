@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive font and image test</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Responsive font and image example</h1>
+    </header>
+    <main>
+        <p>The font will alter size and the image will change relative to the screen size.</p>
+        <picture>
+            <source srcset="img/pic-large.jpg" media="(min-width: 1024px)">
+            <source srcset="img/pic-medium.jpg" media="(min-width: 768px)">
+            <img src="img/pic-small.jpg" alt="Urban setting at night">
+        </picture>
+    </main>
+    <footer>
+        <h3>&copy; 2021 Arturo Mora-Rioja</h3>
+    </footer>
+</body>
+</html>
